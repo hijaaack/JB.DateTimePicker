@@ -1,0 +1,36 @@
+﻿{
+  "modules": [
+    {
+      "type": "Package",
+      "nugetId": "Beckhoff.TwinCAT.HMI.Framework"
+    },
+    {
+      "type": "Control",
+      "basePath": "DateTimePickerControl/",
+      "descriptionFile": "Description.json",
+      "toolboxCategory": "DateTimePicker:1634"
+    },
+    {
+      "type": "Resource",
+      "path": "./node_modules/moment/moment.js"
+    },
+    {
+      "type": "Resource",
+      "path": "./node_modules/daterangepicker/daterangepicker.css"
+    },
+    {
+      "type": "Resource",
+      "path": "./node_modules/daterangepicker/daterangepicker.js"
+    }
+  ],
+  "provideMetadata": {
+    "toolbox": {
+      "DateTimePicker": {
+        "1634": "JB: Controls",
+        "200": "DateTimePicker"
+      }
+    }
+  },
+  "$schema": ".hmiframework/Schema/Manifest.Schema.json",
+  "apiVersion": 1
+}

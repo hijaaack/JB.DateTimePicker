@@ -1,0 +1,3 @@
+﻿Credit to Font Awesome
+https://fontawesome.com/license/free
+Using: calendar-alt-regular.svg

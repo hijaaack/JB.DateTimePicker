@@ -1,0 +1,42 @@
+﻿.daterangepicker-root {
+    height: 100%;
+    width: 100%;
+}
+
+.daterangepicker-input {
+    background: #FFFFFF;
+    /* default box shadow */
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    padding-right: 4px;
+    border: 2px solid #aeb9c2;
+    border-radius: 4px 0px 0px 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: RobotoCondensed;
+}
+
+.daterangepicker-icon {
+    background-image: url("Icons/calendar-alt-regular.svg");
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 75%;
+    width: 10%;
+}
+
+.daterangepicker-disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}

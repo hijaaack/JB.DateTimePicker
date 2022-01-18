@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "definitions": {
+    "TcHmi.Controls.DateTimePicker.DateTimePickerControl": {
+      "type": "object",
+      "frameworkInstanceOf": "TcHmi.Controls.System.TcHmiControl",
+      "frameworkControlType": "DateTimePickerControl",
+      "frameworkControlNamespace": "TcHmi.Controls.DateTimePicker"
+    }
+  }
+}
